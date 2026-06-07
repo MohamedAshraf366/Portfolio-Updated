@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import logo from "../images/logo.png";
 
 const Footer: React.FC = () => {
@@ -19,9 +18,14 @@ const Footer: React.FC = () => {
 
          
 
-          <a href="https://github.com/MohamedAshraf366?tab=repositories" target="_blank" className="text-slate-600 text-xs font-mono">
-            © 2025 Mohamed Ashraf. All rights reserved.
-          </a>
+          <a
+  href="https://github.com/MohamedAshraf366?tab=repositories"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-slate-600 text-xs font-mono"
+>
+  © 2025 Mohamed Ashraf. All rights reserved.
+</a>
         </div>
       </div>
     </footer>
