@@ -25,6 +25,8 @@ import project22 from "../images/supplyq.jpeg";
 import project23 from "../images/HR.jpeg";
 import project24 from "../images/EduGrid.jpeg";
 import project25 from "../images/ironforge-gym.jpeg";
+import project26 from "../images/Nooe-El-Quran.jpg";
+import project27 from "../images/Currency-stramline.jpg";
 
 interface Project {
   id: number;
@@ -36,6 +38,8 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 27, img: project27, url: "https://currency-streamline-main-it3ve8tbh-moahmed-ashrafs-projects.vercel.app/", title: "Cuurency Stream", tags: ["React", "Tailwind"], category: "React" },
+  { id: 26, img: project26, url: "https://noor-el-quran-ff4x3jvbr-moahmed-ashrafs-projects.vercel.app/", title: "Noor El Quran", tags: ["React", "Tailwind"], category: "React" },
   { id: 25, img: project25, url: "https://ironforge-eqje7nj2z-moahmed-ashrafs-projects.vercel.app/", title: "IronForge Gym", tags: ["React", "Tailwind"], category: "React" },
   { id: 24, img: project24, url: "https://edu-grid-bgg4poock-moahmed-ashrafs-projects.vercel.app/", title: "EduGrid Platform", tags: ["React", "Node.js"], category: "Fullstack" },
   { id: 23, img: project23, url: "https://frontend-4oxgbua8n-moahmed-ashrafs-projects.vercel.app/login", title: "HR Dashboard", tags: ["React", "Dashboard"], category: "React" },
