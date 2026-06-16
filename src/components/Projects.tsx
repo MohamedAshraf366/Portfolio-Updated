@@ -38,7 +38,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
-  { id: 27, img: project27, url: "https://currency-streamline-main-it3ve8tbh-moahmed-ashrafs-projects.vercel.app/", title: "Cuurency Stream", tags: ["React", "Tailwind"], category: "React" },
+  { id: 27, img: project27, url: "https://currency-streamline-main-5dqbrpg55-moahmed-ashrafs-projects.vercel.app/", title: "Cuurency Stream", tags: ["React", "Tailwind"], category: "React" },
   { id: 26, img: project26, url: "https://noor-el-quran-ff4x3jvbr-moahmed-ashrafs-projects.vercel.app/", title: "Noor El Quran", tags: ["React", "Tailwind"], category: "React" },
   { id: 25, img: project25, url: "https://ironforge-eqje7nj2z-moahmed-ashrafs-projects.vercel.app/", title: "IronForge Gym", tags: ["React", "Tailwind"], category: "React" },
   { id: 24, img: project24, url: "https://edu-grid-bgg4poock-moahmed-ashrafs-projects.vercel.app/", title: "EduGrid Platform", tags: ["React", "Node.js"], category: "Fullstack" },
