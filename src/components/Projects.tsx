@@ -31,6 +31,7 @@ import project28 from "../images/QR-Creator.jpg";
 import project29 from "../images/Adalah Law Firm and Legal Consulations.jpg";
 import project30 from "../images/FintechOS.jpg";
 import project31 from "../images/cafe.jpg";
+import project32 from "../images/PasswordGenerator.jpg";
 
 interface Project {
   id: number;
@@ -42,6 +43,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 32, img: project32, url: "https://mohamedashraf366.github.io/PasswordGenerator/", title: "Password Generator", tags: ["HTML", "CSS"], category: "HTML/CSS" },
   { id: 31, img: project31, url: "https://cafe-sage-eight.vercel.app/", title: "Cafe", tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 30, img: project30, url: "https://fintech-os-six.vercel.app/", title: "FintechOS", tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 29, img: project29, url: "https://legal-ledger-craft.vercel.app/", title: "Adalah Law Firm and Legal Consulations", tags: ["React.js", "Tailwind"], category: "React" },
