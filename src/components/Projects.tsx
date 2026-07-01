@@ -28,7 +28,8 @@ import project25 from "../images/ironforge-gym.jpeg";
 import project26 from "../images/Nooe-El-Quran.jpg";
 import project27 from "../images/Currency-stramline.jpg";
 import project28 from "../images/QR-Creator.jpg";
-
+import project29 from "../images/Adalah Law Firm and Legal Consulations.jpg";
+import project30 from "../images/FintechOS.jpg";
 
 interface Project {
   id: number;
@@ -40,6 +41,8 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 30, img: project30, url: "https://fintech-os-six.vercel.app/", title: "FintechOS", tags: ["Next.js", "Tailwind"], category: "Next" },
+  { id: 29, img: project29, url: "https://legal-ledger-craft.vercel.app/", title: "Adalah Law Firm and Legal Consulations", tags: ["React.js", "Tailwind"], category: "React" },
   { id: 28, img: project28, url: "https://qr-creator-delta.vercel.app/en", title: "QR Creator", tags: ["Next.js", "Tailwind"], category: "React" },
   { id: 27, img: project27, url: "https://currency-streamline-main-5dqbrpg55-moahmed-ashrafs-projects.vercel.app/", title: "Cuurency Stream", tags: ["React", "Tailwind"], category: "React" },
   { id: 26, img: project26, url: "https://noor-el-quran-gevk.vercel.app/", title: "Noor El Quran", tags: ["React", "Tailwind"], category: "React" },
@@ -68,7 +71,7 @@ const allProjects: Project[] = [
   { id: 16, img: project16, url: "https://project15-next-da737c8nv-moahmed-ashrafs-projects.vercel.app/", title: "Next App", tags: ["Next.js"], category: "Fullstack" },
 ];
 
-const FILTERS = ["All", "React", "Fullstack", "HTML/CSS"] as const;
+const FILTERS = ["All", "React","Next", "Fullstack", "HTML/CSS"] as const;
 type Filter = typeof FILTERS[number];
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
