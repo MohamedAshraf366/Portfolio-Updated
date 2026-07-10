@@ -33,7 +33,9 @@ import project30 from "../images/FintechOS.jpg";
 import project31 from "../images/cafe.jpg";
 import project32 from "../images/PasswordGenerator.jpg";
 import project33 from "../images/Visore Image Generator.jpg";
-import project34 from "../images/MediCare Clinic Management System.jpg";
+import project34 from "../images/AutoElite - Car Dealrship.jpg";
+import project35 from "../images/Egypt Tourism.jpg";
+import project36 from "../images/Anwar.jpg";
 
 interface Project {
   id: number;
@@ -45,6 +47,8 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 36, img: project36, url: "https://anwar-egypt-journey.vercel.app/", title: "Anwar-Egypt-Journey", tags: ["React", "Tailwind"], category: "React" },
+  { id: 34, img: project34, url: "https://car-dealership-xi-ruddy.vercel.app/en", title: "AutoElite - Car Dealrship",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 33, img: project33, url: "https://visora-image-generator.vercel.app/", title: "Visore Image Generator",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 32, img: project32, url: "https://mohamedashraf366.github.io/PasswordGenerator/", title: "Password Generator", tags: ["HTML", "CSS"], category: "HTML/CSS" },
   { id: 31, img: project31, url: "https://cafe-sage-eight.vercel.app/", title: "Cafe", tags: ["Next.js", "Tailwind"], category: "Next" },
@@ -59,6 +63,7 @@ const allProjects: Project[] = [
   { id: 22, img: project22, url: "https://supplyq-e4d8h2m5d-moahmed-ashrafs-projects.vercel.app/", title: "SupplyQ", tags: ["Next.js", "MongoDB"], category: "Fullstack" },
   { id: 21, img: project21, url: "https://agile-architect-aura-main.vercel.app/", title: "Agile Architect Aura", tags: ["React", "UI"], category: "React" },
   { id: 20, img: project20, url: "https://dashboard-eqvs7fxnt-moahmed-ashrafs-projects.vercel.app/", title: "Admin Dashboard", tags: ["React", "Charts"], category: "React" },
+  { id: 35, img: project35, url: "https://egypt-tourism-666l.vercel.app/", title: "Egypt Tourism",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 14, img: project14, url: "https://ecommerce-nextjs-7kvwxo78x-moahmed-ashrafs-projects.vercel.app/", title: "E-Commerce Next", tags: ["Next.js", "Stripe"], category: "Fullstack" },
   { id: 15, img: project15, url: "https://limitless-nextjs-fveaaaezp-moahmed-ashrafs-projects.vercel.app/", title: "Limitless", tags: ["Next.js", "Tailwind"], category: "React" },
   { id: 17, img: project17, url: "https://project20-filter-p2b4ijw15-moahmed-ashrafs-projects.vercel.app/", title: "Product Filter", tags: ["React", "State"], category: "React" },
