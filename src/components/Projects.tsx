@@ -36,6 +36,9 @@ import project33 from "../images/Visore Image Generator.jpg";
 import project34 from "../images/AutoElite - Car Dealrship.jpg";
 import project35 from "../images/Egypt Tourism.jpg";
 import project36 from "../images/Anwar.jpg";
+import project37 from "../images/Mehrap for researching.jpg";
+import project38 from "../images/Frostworks.jpg";
+import project39 from "../images/Clinic MediCare.jpg";
 
 interface Project {
   id: number;
@@ -47,7 +50,10 @@ interface Project {
 }
 
 const allProjects: Project[] = [
-  { id: 36, img: project36, url: "https://anwar-egypt-journey.vercel.app/", title: "Anwar-Egypt-Journey", tags: ["React", "Tailwind"], category: "React" },
+  { id: 39, img: project39, url: "https://clinic-medi-care-bent.vercel.app/", title: "Clinic MediCare", tags: ["React", "Tailwind"], category: "React" },
+  { id: 38, img: project38, url: "https://frostworks.vercel.app/", title: "Frostworks",  tags: ["Next.js", "Tailwind"], category: "Next" },
+  { id: 37, img: project37, url: "https://mehrap-for-researching-rx27.vercel.app/", title: "Mehrap For Researching", tags: ["React", "Tailwind"], category: "React" },
+  { id: 36, img: project36, url: "https://anwar-egypt-journey.vercel.app/", title: "Anwar Egypt Journey", tags: ["React", "Tailwind"], category: "React" },
   { id: 34, img: project34, url: "https://car-dealership-xi-ruddy.vercel.app/en", title: "AutoElite - Car Dealrship",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 33, img: project33, url: "https://visora-image-generator.vercel.app/", title: "Visore Image Generator",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 32, img: project32, url: "https://mohamedashraf366.github.io/PasswordGenerator/", title: "Password Generator", tags: ["HTML", "CSS"], category: "HTML/CSS" },
