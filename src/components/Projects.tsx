@@ -43,7 +43,7 @@ import project40 from "../images/Project3-update.jpg";
 
 interface Project {
   id: number;
-  img: string | number;
+  img: string;
   url: string;
   title: string;
   tags: string[];
