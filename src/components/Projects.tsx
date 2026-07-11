@@ -86,7 +86,7 @@ const allProjects: Project[] = [
   { id: 9, img: project9, url: "https://mohamedashraf366.github.io/Project10-React-Roberto/", title: "Roberto App", tags: ["React"], category: "React" },
   { id: 12, img: project12, url: "https://mohamedashraf366.github.io/Project12-Ecommerce/", title: "E-Commerce v1", tags: ["React"], category: "React" },
   { id: 13, img: project13, url: "https://mohamedashraf366.github.io/Project13-Resturan-redboa/", title: "Red Boa Restaurant", tags: ["React"], category: "React" },
-  { id: 16, img: project16, url: "https://project15-next-da737c8nv-moahmed-ashrafs-projects.vercel.app/", title: "Next App", tags: ["Next.js"], category: "Fullstack" },
+  { id: 16, img: project16, url: "https://project15-next-da737c8nv-moahmed-ashrafs-projects.vercel.app/", title: "Zain Fundamental", tags: ["React, Bootstrap"], category: "React" },
 ];
 
 const FILTERS = ["All", "React","Next", "Fullstack", "HTML/CSS"] as const;
