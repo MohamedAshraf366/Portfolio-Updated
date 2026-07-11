@@ -39,10 +39,11 @@ import project36 from "../images/Anwar.jpg";
 import project37 from "../images/Mehrap for researching.jpg";
 import project38 from "../images/Frostworks.jpg";
 import project39 from "../images/Clinic MediCare.jpg";
+import project40 from "../images/Project3-update.jpg";
 
 interface Project {
   id: number;
-  img: string;
+  img: string | number;
   url: string;
   title: string;
   tags: string[];
@@ -78,6 +79,7 @@ const allProjects: Project[] = [
   { id: 1, img: project1, url: "https://mohamedashraf366.github.io/pro1/", title: "Project One", tags: ["HTML", "CSS"], category: "HTML/CSS" },
   { id: 2, img: project2, url: "https://mohamedashraf366.github.io/pro2/", title: "Project Two", tags: ["HTML", "CSS"], category: "HTML/CSS" },
   { id: 3, img: project3, url: "https://mohamedashraf366.github.io/pro3/", title: "Project Three", tags: ["HTML", "JS"], category: "HTML/CSS" },
+  { id: 40, img: project40, url: "https://mohamedashraf366.github.io/Rocker-For-Furnature/", title: "Rocker For Furnature", tags: ["HTML", "JS"], category: "HTML/CSS" },
   { id: 4, img: project4, url: "https://mohamedashraf366.github.io/Project4/", title: "Project Four", tags: ["HTML", "JS"], category: "HTML/CSS" },
   { id: 5, img: project5, url: "https://mohamedashraf366.github.io/Project5/", title: "Project Five", tags: ["Bootstrap"], category: "HTML/CSS" },
   { id: 6, img: project7, url: "https://mohamedashraf366.github.io/Project6/", title: "Project Six", tags: ["Bootstrap"], category: "HTML/CSS" },
