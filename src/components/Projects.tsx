@@ -40,6 +40,7 @@ import project37 from "../images/Mehrap for researching.jpg";
 import project38 from "../images/Frostworks.jpg";
 import project39 from "../images/Clinic MediCare.jpg";
 import project40 from "../images/Project3-update.jpg";
+import project41 from "../images/ResumeAce.jpg";
 
 interface Project {
   id: number;
@@ -51,6 +52,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 41, img: project41, url: "https://resume-ace-neon.vercel.app/", title: "ResumeAce", tags: ["React", "Tailwind"], category: "React" },
   { id: 39, img: project39, url: "https://clinic-medi-care-bent.vercel.app/", title: "Clinic MediCare", tags: ["React", "Tailwind"], category: "React" },
   { id: 38, img: project38, url: "https://frostworks.vercel.app/", title: "Frostworks",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 37, img: project37, url: "https://mehrap-for-researching-rx27.vercel.app/", title: "Mehrap For Researching", tags: ["React", "Tailwind"], category: "React" },
