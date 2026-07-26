@@ -44,6 +44,7 @@ import project41 from "../images/ResumeAce.jpg";
 import project42 from "../images/Birthday-Wish-Generator.jpg";
 import project43 from "../images/RouteScope.jpg";
 import project44 from "../images/QuickDrop.jpg";
+import project45 from "../images/smart wallet.jpg";
 
 
 interface Project {
@@ -56,6 +57,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 45, img: project45, url: "https://smart-wallet-ai-rho.vercel.app/", title: "Smart Wallet AI",  tags: ["React", "Tailwind"], category: "React" },
   { id: 44, img: project44, url: "https://quick-drop-upload-files.vercel.app/", title: "QuickDrop Upload Files",  tags: ["React", "Tailwind"], category: "React" },
   { id: 43, img: project43, url: "https://route-scope.vercel.app/", title: "RouteScope", tags: ["React", "Tailwind"], category: "React" },
   { id: 42, img: project42, url: "https://birthday-wish-generator-rose.vercel.app/", title: "Birthday Wish Generator",  tags: ["Next.js", "Tailwind"], category: "Next" },
