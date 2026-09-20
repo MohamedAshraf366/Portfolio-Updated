@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e08eb8a7.css",
-    "main.js": "/static/js/main.c1fc3fe4.js",
-    "static/js/796.bdb6fd99.chunk.js": "/static/js/796.bdb6fd99.chunk.js",
-    "static/js/453.784d0412.chunk.js": "/static/js/453.784d0412.chunk.js",
-    "static/js/37.ec3195a0.chunk.js": "/static/js/37.ec3195a0.chunk.js",
+    "main.css": "/static/css/main.6a74f276.css",
+    "main.js": "/static/js/main.fd0d8d87.js",
+    "static/js/796.979ed48b.chunk.js": "/static/js/796.979ed48b.chunk.js",
+    "static/js/453.78069eab.chunk.js": "/static/js/453.78069eab.chunk.js",
+    "static/js/37.7ee9698c.chunk.js": "/static/js/37.7ee9698c.chunk.js",
     "static/media/projrct7.png": "/static/media/projrct7.115c3294c958ef377069.png",
     "static/media/projrct15.jpeg": "/static/media/projrct15.5a295e6a4f9bd4074205.jpeg",
     "static/media/projrct4.png": "/static/media/projrct4.a66c86a2627691b1a462.png",
@@ -44,6 +44,7 @@
     "static/media/Anwar.jpg": "/static/media/Anwar.1198c45357b64f6ef90a.jpg",
     "static/media/Nooe-El-Quran.jpg": "/static/media/Nooe-El-Quran.0f2738c0ca09f0abfb44.jpg",
     "static/media/QuickDrop.jpg": "/static/media/QuickDrop.53895a76d6cf9c442e71.jpg",
+    "static/media/PaperLine AI document intelligence.jpg": "/static/media/PaperLine AI document intelligence.d7fb4eb3672d3cf69569.jpg",
     "static/media/PasswordGenerator.jpg": "/static/media/PasswordGenerator.fbe6b57a84650196bbbd.jpg",
     "static/media/Calculator.jpg": "/static/media/Calculator.a6a1fbb8f5d36722a3c2.jpg",
     "static/media/EduGrid.jpeg": "/static/media/EduGrid.8e832ad7b3b8da4e0686.jpeg",
@@ -55,14 +56,14 @@
     "static/media/Birthday-Wish-Generator.jpg": "/static/media/Birthday-Wish-Generator.c966d86700eb314ed738.jpg",
     "static/media/project18.jpeg": "/static/media/project18.e32c3109fba7520739f3.jpeg",
     "index.html": "/index.html",
-    "main.e08eb8a7.css.map": "/static/css/main.e08eb8a7.css.map",
-    "main.c1fc3fe4.js.map": "/static/js/main.c1fc3fe4.js.map",
-    "796.bdb6fd99.chunk.js.map": "/static/js/796.bdb6fd99.chunk.js.map",
-    "453.784d0412.chunk.js.map": "/static/js/453.784d0412.chunk.js.map",
-    "37.ec3195a0.chunk.js.map": "/static/js/37.ec3195a0.chunk.js.map"
+    "main.6a74f276.css.map": "/static/css/main.6a74f276.css.map",
+    "main.fd0d8d87.js.map": "/static/js/main.fd0d8d87.js.map",
+    "796.979ed48b.chunk.js.map": "/static/js/796.979ed48b.chunk.js.map",
+    "453.78069eab.chunk.js.map": "/static/js/453.78069eab.chunk.js.map",
+    "37.7ee9698c.chunk.js.map": "/static/js/37.7ee9698c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e08eb8a7.css",
-    "static/js/main.c1fc3fe4.js"
+    "static/css/main.6a74f276.css",
+    "static/js/main.fd0d8d87.js"
   ]
 }

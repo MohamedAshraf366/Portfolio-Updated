@@ -49,6 +49,7 @@ import project46 from "../images/BookHaven.jpg";
 import project47 from "../images/Payload - Test file generator.jpg";
 import project48 from "../images/Calculator.jpg";
 import project49 from "../images/Speed-Duel-Car-Racing.jpg";
+import project50 from "../images/PaperLine AI document intelligence.jpg";
 
 
 interface Project {
@@ -61,6 +62,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 50, img: project50, url: "https://paper-line.vercel.app/", title: "PaperLine AI Document Intelligence",  tags: ["React", "Tailwind"], category: "React" },
   { id: 49, img: project49, url: "https://speed-duel-car-racing.vercel.app/", title: "Speed Duel Car Racing",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 48, img: project48, url: "https://calculator-orcin-alpha.vercel.app/", title: "Calculator",  tags: ["React", "Tailwind"], category: "React" },
   { id: 47, img: project47, url: "https://test-file-generator-silk.vercel.app/", title: "Payload Test File Generator",  tags: ["Next.js", "Tailwind"], category: "Next" },
