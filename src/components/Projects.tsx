@@ -51,7 +51,7 @@ import project48 from "../images/Calculator.jpg";
 import project49 from "../images/Speed-Duel-Car-Racing.jpg";
 import project50 from "../images/PaperLine AI document intelligence.jpg";
 import project51 from "../images/Tic-Tac-Toe.jpg";
-
+import project52 from "../images/Apex-Rush-3D-Car-Racing.jpg";
 
 
 interface Project {
@@ -64,6 +64,7 @@ interface Project {
 }
 
 const allProjects: Project[] = [
+  { id: 52, img: project52, url: "https://apex-rush-3-d-car-racing.vercel.app/", title: "Apex Rush 3D Car Racing",  tags: ["Next.js", "Tailwind"], category: "Next" },
   { id: 51, img: project51, url: "https://tic-tac-toe-ten-xi-90.vercel.app/", title: "Tic Tac Toe",  tags: ["React", "Tailwind"], category: "React" },
   { id: 50, img: project50, url: "https://paper-line.vercel.app/", title: "PaperLine AI Document Intelligence",  tags: ["React", "Tailwind"], category: "React" },
   { id: 49, img: project49, url: "https://speed-duel-car-racing.vercel.app/", title: "Speed Duel Car Racing",  tags: ["Next.js", "Tailwind"], category: "Next" },
